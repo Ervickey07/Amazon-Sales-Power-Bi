@@ -1,10 +1,48 @@
-# Amazon-Sales-Power-Bi
-## Data set name - Amazon sales data
+## 📊 Sales Analytics Dashboard - Problem Statements & Chart Requirements
+
+This project aims to analyze and visualize year-to-date (YTD) sales data to uncover key business insights using visual storytelling. Below are the primary problem statements and the chart requirements for this dashboard.
+
+---
+
+### ✅ Problem Statements
+
+1. **How do sales trends evolve throughout the year?**
+2. **Are there any significant fluctuations in weekly sales performance?**
+3. **Which product categories are generating the highest and lowest sales?**
+
+---
+
+### 📈 Charts Requirements
+
+1. ### **YTD Sales by Month (Line Chart)**
+   - **What:** Visualize the total sales aggregated by each month.
+   - **Why:** To identify seasonal trends and understand overall monthly growth patterns.
+   - **Chart Type:** Line Chart  
+   - **Insight Goal:** Detect sales peaks, dips, and steady growth phases.
+
+2. ### **YTD Sales by Week (Column Chart)**
+   - **What:** Break down sales data by individual weeks.
+   - **Why:** To highlight short-term fluctuations and weekly performance patterns.
+   - **Chart Type:** Column (Bar) Chart  
+   - **Insight Goal:** Spot weekly anomalies or high-performing campaigns.
+
+3. ### **Sales by Product Category (Text or Heat Map)**
+   - **What:** Show total sales grouped by product category.
+   - **Why:** To compare and assess category-wise performance visually.
+   - **Chart Type:** Heat Map or Text-based Summary  
+   - **Insight Goal:** Quickly identify top-performing and underperforming product categories.
+
+---
+
+📂 Data Source: *(Mention your dataset, e.g., internal sales database, Kaggle dataset, etc.)*
+
+🛠️ Tools Used: Power BI | Python | SQL *(Update as per your actual stack)*
+
+📅 Time Period: Year-To-Date (YTD)
+
+---
 
 
 
-##Problem statements!
-**Charts Requiremnt!
-1- YTD Sales by Month(Line Chart): Visualizde Sales trends over time on a monthly basis to identify seasonal patterns and growth trends.
-2-YTD Sales by Week(Column Chjart) :Display slaes data on a weekly basis to pinpoint shorter-term fluctuations and performance insights.
-3-Sales by produnct Category(Text/Heat Map): Utilize a text or heat map visualization to provide a high-level overview of sales across different product categories.
+
+
