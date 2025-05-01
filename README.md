@@ -1,4 +1,6 @@
-## 📊 Sales Analytics Dashboard - Problem Statements & Chart Requirements
+#Amazon Analysis Products Sells 
+
+## 📊 Amazon Sales Analytics Dashboard - Problem Statements & Chart Requirements
 
 This project aims to analyze and visualize year-to-date (YTD) sales data to uncover key business insights using visual storytelling. Below are the primary problem statements and the chart requirements for this dashboard.
 
@@ -31,6 +33,8 @@ This project aims to analyze and visualize year-to-date (YTD) sales data to unco
    - **Why:** To compare and assess category-wise performance visually.
    - **Chart Type:** Heat Map or Text-based Summary  
    - **Insight Goal:** Quickly identify top-performing and underperforming product categories.
+4.### **Top 5 Products by YTD Sales (Bar chart)**
+   - **Highlights the top-performing products bassed on year-to-date sales overview of sales across differrent product cateogories
 
 ---
 
