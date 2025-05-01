@@ -50,6 +50,54 @@ This project aims to analyze and visualize year-to-date (YTD) sales and review d
 
 ---
 
+### 🧠 Power BI Features Used
+
+#### 🧩 DAX Functions
+- `CONCATENATE` – Combined product names and categories for better context
+- `FORMAT` – Applied to dates and numbers for user-friendly display (e.g., `FORMAT([Sales], "$#,##0")`)
+- `DATE`, `YEAR`, `MONTH` – Extracted and created date-based columns for slicing/filtering
+- `CALCULATE`, `FILTER`, `ALL` – Built dynamic YTD sales measures
+
+#### 🧮 Custom Measures & Calculated Columns
+- YTD Total Sales
+- Review Counts by Product
+- Monthly and Weekly Sales Growth
+
+#### 🧾 New Tables Created
+- **Date Table**: Custom date table using `CALENDAR()` for accurate time intelligence  
+- **Top 5 Product Tables**: Used `TOPN()` in combination with `SUMMARIZE` to rank products by sales and reviews
+
+#### 🔗 Data Modeling
+- Established **many-to-one relationships** between:
+  - Product Table ↔ Sales Table  
+  - Date Table ↔ Sales Table  
+  - Category Table ↔ Product Table  
+- Ensured **bi-directional filtering** where needed for drill-through analysis
+
+---
+
+### 🛠️ Tools & Stack
+
+- **Power BI** – Data visualization and modeling  
+- **DAX** – Custom logic and calculated measures  
+- **Power Query** – Data transformation and cleaning  
+- **SQL & Python** – (Used as external preprocessing options)
+
+---
+
+### 💡 Insights Gained
+
+- Identified **seasonal sales peaks** and weekly fluctuations  
+- Found top-selling categories and **underperformers** for action planning  
+- Pinpointed **customer-favorite products** by review volume  
+- Created an interactive model ready for **executive-level storytelling**
+
+---
+
+### 👨‍🏫 Guided By
+**Mentor:** *Divakr Kushwaha Sir* – Thank you for your continued support and mentorship throughout this journey.
+
+
 📂 **Data Source:** *(e.g., Internal CRM & Review Database, Kaggle Retail Dataset)*  
 🛠️ **Tools Used:** Power BI | Python | SQL *(Modify as needed)*  
 📅 **Time Frame:** Year-To-Date (YTD)
